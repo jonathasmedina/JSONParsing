@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(!dados.isEmpty()){
                     Log.e("parse aqui. adicionar para arraylist", dados);
+                    //TODO JSONObjects e JSONArrays, adicionar a uma lista.
                 }
 
             } catch (MalformedURLException e) {
