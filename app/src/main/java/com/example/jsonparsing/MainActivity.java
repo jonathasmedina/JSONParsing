@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             });
             try {
                 URL url = null;
-                url = new URL("https://jsonplaceholder.org/users");
+                url = new URL("https://jsonplaceholder.typicode.com/users");
 
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
                 InputStream inputStream = httpURLConnection.getInputStream();
@@ -79,6 +79,5 @@ public class MainActivity extends AppCompatActivity {
             });
         }
     }
-
 
 }
